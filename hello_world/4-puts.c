@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * Description: 'The program should show a strin saying \"Programming is like building a multilingual puzzle using 'puts' function
- * Return: Always \0
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
