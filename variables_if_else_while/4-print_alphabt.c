@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 
@@ -14,10 +14,13 @@ int main(void)
 	char l;
 
 			for (l = 'a'; l <= 'z'; l++)
-
-				if (l == "q\, e" \b)
-
 			{
+				if (l == 'q' || l == 'e')
+
+				{
+					continue;
+				}
+
 				putchar(l);
 			}
 				putchar('\n');
