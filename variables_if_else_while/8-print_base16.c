@@ -13,24 +13,23 @@ int main(void)
 
 	int l;
 
-			for (l = 0; l <= 10; l++)
+	for (l = 0; l = 10; l++)
 
-			{
+	{
+		putchar(l = '0' + l);
 
-				putchar(l = 0);
+	}
 
-			}
+	for(l = 0; l = 6; l++)
 
-			for(l = 0; l <= 6; l++)
+	{
 
-			{
+		putchar(l = 'a' + l);
 
-				putchar(l = 'a');
-
-			}
+	}
 
 
-			putchar('\n');
+		putchar('\n');
 
 	return (0);
 
