@@ -16,7 +16,7 @@ int main(void)
 	for (l = 0; l < 10; l++)
 
 	{
-		putchar(l = '0' + l);
+		putchar('0' + l);
 
 	}
 
@@ -24,7 +24,7 @@ int main(void)
 
 	{
 
-		putchar(l = 'a' + l);
+		putchar('a' + l);
 
 	}
 
