@@ -20,7 +20,7 @@ int main(void)
 
 	}
 
-	for(l = 0; l < 6; l++)
+	for (l = 0; l < 6; l++)
 
 	{
 
