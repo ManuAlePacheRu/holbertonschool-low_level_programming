@@ -13,14 +13,14 @@ int main(void)
 
 	int l;
 
-	for (l = 0; l = 10; l++)
+	for (l = 0; l < 10; l++)
 
 	{
 		putchar(l = '0' + l);
 
 	}
 
-	for(l = 0; l = 6; l++)
+	for(l = 0; l < 6; l++)
 
 	{
 
@@ -28,9 +28,8 @@ int main(void)
 
 	}
 
-
-		putchar('\n');
-
+	putchar('\n');
+	
 	return (0);
 
 }
