@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _puts - put a character string
+ *
+ * @str: is the pointer for the character string
+ */
+
 void _puts(char *str)
 
 {
