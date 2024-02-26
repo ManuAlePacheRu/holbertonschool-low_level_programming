@@ -3,7 +3,7 @@
 /**
  * print_rev - Print characters in reverse
  *
- * @s: is a variable
+ * @s: is a pointer
  *
  */
 
