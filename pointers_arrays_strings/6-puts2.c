@@ -44,7 +44,7 @@ void puts2(char *str)
 			if (str[i] == '\0')
 				break;
 		}
-		else /* SI ES IMPAR ENTRA ACA */
+		else if (i != 0) /* SI ES IMPAR ENTRA ACA */
 		{
 			if (str[i - 1] == '\0')
 				break;
