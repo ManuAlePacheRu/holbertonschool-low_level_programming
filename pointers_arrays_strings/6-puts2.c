@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * _strlen - take string drection
- * @s: take the string
+ *_strlen - take the length of a string
+ *@s: take the string
+ *Return: i
  *
- * Return: i
  */
 
 int _strlen(char *s)
@@ -21,8 +22,15 @@ int _strlen(char *s)
 	}
 
 	return (i);
-
 }
+/**
+ * puts2 - Saltea caracteres
+ *
+ * @str: is where the string is
+ *
+ * Return: return nothing
+ */
+
 void puts2(char *str)
 {
 
