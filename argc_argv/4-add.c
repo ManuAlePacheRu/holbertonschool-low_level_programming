@@ -16,8 +16,8 @@ int main(int argc, char **argv)
 	{
 		for (digis = 0; argv[numc][digis]; digis++)
 		{
-			digis = isdigit(argv[numc][digis]);
-			if (digis == 0)
+
+			if (argv[numc][digis] < '0' || argv[numc][digis] > '9')
 			{
 				printf("Error\n");
 				return (1);
