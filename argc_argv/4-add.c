@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
  * main - put the argc and argv arguments
  * @argc: represent the number of command line arguments
@@ -9,7 +9,8 @@
 
 int main(int argc, char **argv)
 {
-	int numc, numc2, digis, ressum;
+	int numc, numc2, digis;
+	int sum = 0;
 
 	for (numc = 0; numc < argc; numc++)
 	{
@@ -22,8 +23,9 @@ int main(int argc, char **argv)
 				return (1);
 			}
 		}
+
 		sum += atoi(argv[numc]);
 	}
-	printf("%d\n" ,ressum);
+	printf("%d\n", sum);
 	return (0);
 }
