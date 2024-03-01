@@ -9,14 +9,14 @@
 
 int main(int argc, char **argv)
 {
-	int numc, numc2, digis;
+	int numc, digis;
 	int sum = 0;
 
-	for (numc = 0; numc < argc; numc++)
+	for (numc = 1; numc < argc; numc++)
 	{
-		for (numc2 = 1; argv[numc][numc2]; numc2++)
+		for (digis = 0; argv[numc][digis]; digis++)
 		{
-			digis = isdigit(argv[numc][numc2]);
+			digis = isdigit(argv[numc][digis]);
 			if (digis == 0)
 			{
 				printf("Error\n");
