@@ -21,7 +21,10 @@ void times_table(void)
 			product	= rows * col;
 
 			if (product < 10)
-			_putchar(' ');
+			{
+				_putchar(' ');
+				_putchar(product + '0');
+			}
 					else
 					{
 						_putchar((product / 10) + '0');
