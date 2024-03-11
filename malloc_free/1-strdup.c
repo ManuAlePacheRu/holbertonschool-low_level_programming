@@ -4,22 +4,24 @@
  *
  */
 
-char *_strdup(char *str){
-
-	int charsapce;
+char *_strdup(char *str)
+{
+	int charspace;
 	int i;
 	char *p;
 
-	if(str == NULL) {
+	if(str == NULL) 
+	{
 		return (NULL);
 	}
-
-	for(charspace = 0; str[charsapce] != '\0'; charsapce++){
-
-		p = malloc(sizeof(char)*(charsapce++));
-
-		if (p != NULL) {
-			for(i = 0; i<=  charspace; i++) {
+	
+	for(charspace = 0; str[charspace] != '\0'; charspace++)
+	{
+		p = malloc(sizeof(char)*(charspace++));
+		if (p != NULL)
+		{
+			for(i = 0; i<=  charspace; i++)
+			{
 				p[i] = str[i];
 			}
 		}
