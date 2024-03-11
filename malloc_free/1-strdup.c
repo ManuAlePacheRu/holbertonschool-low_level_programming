@@ -16,16 +16,15 @@ char *_strdup(char *str)
 	}
 
 	for(charspace = 0; str[charspace] != '\0'; charspace++)
-	{
-		p = malloc(sizeof(char)*(charspace));
+	{}
+	p = malloc(sizeof(char)*(charspace + 1));
 
-		if (p != NULL)
+	if (p != NULL)
+	{
+		for(i = 0; i<=  charspace; i++)
 		{
-			for(i = 0; i<=  charspace; i++)
-			{
-				p[i] = str[i];
-			}
-		}
+			p[i] = str[i];
+		}	
 	}
 	return (p);
 }
