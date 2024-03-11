@@ -14,10 +14,11 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	
+
 	for(charspace = 0; str[charspace] != '\0'; charspace++)
 	{
-		p = malloc(sizeof(char)*(charspace + 1));
+		p = malloc(sizeof(char)*(charspace));
+
 		if (p != NULL)
 		{
 			for(i = 0; i<=  charspace; i++)
