@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- *
+ *_strdup - duplicate a string and return a pointer
+ *@str: is the string that store the original string
+ *Retrun: return a pointer to the duplicated string
  */
 
 char *_strdup(char *str)
@@ -10,21 +12,21 @@ char *_strdup(char *str)
 	int i;
 	char *p;
 
-	if(str == NULL) 
+	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	for(charspace = 0; str[charspace] != '\0'; charspace++)
+	for (charspace = 0; str[charspace] != '\0'; charspace++)
 	{}
-	p = malloc(sizeof(char)*(charspace + 1));
+	p = malloc(sizeof(char) * (charspace + 1));
 
 	if (p != NULL)
 	{
-		for(i = 0; i<=  charspace; i++)
+		for (i = 0; i <=  charspace; i++)
 		{
 			p[i] = str[i];
-		}	
+		}
 	}
 	return (p);
 }
