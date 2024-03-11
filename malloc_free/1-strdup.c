@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_strdup - duplicate a string and return a pointer
- *@str: is the string that store the original string
- *Retrun: return a pointer to the duplicated string
+ * _strdup - duplicate a string and return a pointer
+ * @str: is the string that store the original string
+ * Return: return a pointer to the duplicated string
  */
 
 char *_strdup(char *str)
