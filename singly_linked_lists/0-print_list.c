@@ -17,7 +17,10 @@ while (h != NULL)
 {
         _putchar('\n');
 }
+else
+
 	for (ncont = 0; ncont != '\0'; ncont++)
+	
 	_putchar(h->str[ncont]);
 	_putchar('\n');
 
