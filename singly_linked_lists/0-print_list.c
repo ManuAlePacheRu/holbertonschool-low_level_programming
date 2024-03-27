@@ -17,9 +17,9 @@ while (h != NULL)
 	{
 	_putchar(h->str[ncont]);
 	cont ++;
-	h = h->next;
 	}
-_putchar('\n');
+	h = h->next;
+	_putchar('\n');
 }
 
 return (cont);
