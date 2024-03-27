@@ -15,11 +15,11 @@ while (h != NULL)
 {
 	for (ncont = 0; ncont != '\0'; ncont++)
 	{
-	_putchar(h->str[ncont]);
+		printf("%d", ncont);
 	}
 	cont ++;
 	h = h->next;
-	_putchar('\n');
+	printf("\n");
 }
 
 return (cont);
