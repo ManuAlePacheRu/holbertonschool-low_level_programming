@@ -8,7 +8,7 @@ int cont;
 
 size_t print_list(const list_t *h)
 {
-size_t cont;
+size_t cont = 0;
 
 while (h != NULL)
 {
