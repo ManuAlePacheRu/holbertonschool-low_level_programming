@@ -13,12 +13,6 @@ int ncont = 0;
 
 while (h != NULL)
 {
-	if (h->str[ncont] == '\0')
-{
-        _putchar('\n');
-}
-else
-
 	for (ncont = 0; ncont != '\0'; ncont++)
 	
 	_putchar(h->str[ncont]);
