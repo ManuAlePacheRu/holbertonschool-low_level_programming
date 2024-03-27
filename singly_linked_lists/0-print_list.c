@@ -12,14 +12,14 @@ size_t cont = 0;
 
 while (h != NULL)
 {
+	if (h->str == NULL)
+	{
+		printf("nil");
+	}
+
 	printf("[%d] %s\n", h->len, h->str);
 	cont ++;
 	h = h->next;
-
-	if (h->str == NULL)
-        {
-                printf("nil");
-        }
 }
 
 return (cont);
