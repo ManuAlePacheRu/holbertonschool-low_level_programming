@@ -1,10 +1,12 @@
 #include "lists.h"
 
 /**
- *
+ *print_list - function that return the contents of a list and the length
+ *Return: return cont that is the number of arguments
+ *@h: is a pointer to the list list_t
  */
 
-int cont;
+
 
 size_t print_list(const list_t *h)
 {
@@ -18,7 +20,7 @@ while (h != NULL)
 	}
 	else
 	printf("[%d] %s\n", h->len, h->str);
-	cont ++;
+	cont++;
 	h = h->next;
 }
 
